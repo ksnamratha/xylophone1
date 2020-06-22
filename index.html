@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xylophone</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<audio id="audio1"><source src="note1.wav" type="audio/mp3"></audio>
+  <audio id="audio2"><source src="note2.wav" type="audio/mp3"></audio>
+  <audio id="audio3"><source src="note3.wav" type="audio/mp3"></audio>
+  <audio id="audio4"><source src="note4.wav" type="audio/mp3"></audio>
+  <audio id="audio5"><source src="note5.wav" type="audio/mp3"></audio>
+  <audio id="audio6"><source src="note6.wav" type="audio/mp3"></audio>
+  <audio id="audio7"><source src="note7.wav" type="audio/mp3"></audio>
+</head>
+<body>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-lg-" id="m1" onclick="playAudio1()" style="background-color: red">A</div>
+    <div class="col-lg-" id="m2" onclick="playAudio2()" style="background-color:rgb(255, 165, 0)">B</div>
+    <div class="col-lg-" id="m3" onclick="playAudio3()" style="background-color:aqua">C</div>
+    <div class="col-lg-" id="m4" onclick="playAudio4()" style="background-color:yellow">D</div>
+    <div class="col-lg-" id="m5" onclick="playAudio5()" style="background-color: indigo">E</div>
+    <div class="col-lg-" id="m6" onclick="playAudio6()" style="background-color: green">F</div>
+    <div class="col-lg-" id="m7" onclick="playAudio7()" style="background-color:purple">G</div>
+  </div>
+</div>
+<div class="sound" onkeydown="music()"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
